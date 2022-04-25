@@ -1,0 +1,101 @@
+.container{
+  display: grid;
+  grid-template-columns: 30% auto;
+  position: relative;
+}
+.icon img{
+  width: 35%;
+}
+.tab1{
+  text-align: center;
+  height: 100vh;
+}
+
+.tab2{
+  background: url(../../../assets/wallpaperflare.com_wallpaper.jpg) center/cover;
+  height: 100vh;
+}
+.formulario input {
+  margin: 1em;
+  padding-bottom: 15px;
+  width: 25em;
+  border-radius: 0.3em;
+  border-color: none;
+}
+.formulario input:focus {
+  border-color: #000;
+}
+
+
+.icons-midia {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 25%;
+  margin-left: 15%;
+}
+
+.icons-midia img {
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icons-facebook button{
+  background-color: #3393FF;
+  border-radius: 0.4em;
+  box-shadow: none;
+  width: 100px;
+  height: 30px;
+  border:none;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.icons-google button{
+  background-color: #fff;
+  border-radius: 0.4em;
+  width: 100px;
+  height: 30px;
+  border:none;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.icons-apple button{
+  background-color: #000;
+  border-radius: 0.4em;
+  width: 100px;
+  height: 30px;
+  border:none;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.icons-apple img{
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+}
+.entrar button {
+  width: 5em;
+  height: 5em;
+  border-radius: 20%;
+  border-color: none;
+  background-color: rgb(255, 38, 38);
+  margin-top: 70%;
+}
+a {
+   text-decoration: none;
+   text-align: center;
+   color: #A9A9A9;
+}
+a:focus {
+   color: #000;
+}
+
+.container-footer{
+  position: absolute;
+	bottom: 45px;
+  align-items: center;
+  margin-left: 10%;
+}
+
