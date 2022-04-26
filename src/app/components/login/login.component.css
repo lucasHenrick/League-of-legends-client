@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 .container{
   display: grid;
-  grid-template-columns: 30% auto;
+  grid-template-columns: 30% 70%;
   position: relative;
+  font-family: 'Roboto', sans-serif;
 }
 .icon img{
   width: 35%;
@@ -18,9 +20,14 @@
 .formulario input {
   margin: 1em;
   padding-bottom: 15px;
-  width: 25em;
+  width: 90%;
   border-radius: 0.3em;
-  border-color: none;
+  background-color: #ededed;
+  /* background-color: #000; */
+  border: 2px solid #ededed;
+  border-radius: 8px;
+  padding: 14px 16px 4px;
+  box-sizing: border-box;
 }
 .formulario input:focus {
   border-color: #000;
@@ -29,9 +36,8 @@
 
 .icons-midia {
   display: grid;
-  grid-template-columns: auto auto auto;
-  width: 25%;
-  margin-left: 15%;
+  grid-template-columns: 30% 30% 30%;
+  margin-top: 35px;
 }
 
 .icons-midia img {
@@ -49,8 +55,6 @@
   width: 100px;
   height: 30px;
   border:none;
-  margin-left: 25px;
-  margin-right: 25px;
 }
 .icons-google button{
   background-color: #fff;
@@ -58,8 +62,6 @@
   width: 100px;
   height: 30px;
   border:none;
-  margin-left: 25px;
-  margin-right: 25px;
 }
 .icons-apple button{
   background-color: #000;
@@ -67,21 +69,27 @@
   width: 100px;
   height: 30px;
   border:none;
-  margin-left: 25px;
-  margin-right: 25px;
 }
 .icons-apple img{
   width: 20px;
   height: 20px;
   margin-top: 2px;
 }
+.entrar{
+  margin-top: 130px;
+}
 .entrar button {
-  width: 5em;
-  height: 5em;
-  border-radius: 20%;
-  border-color: none;
-  background-color: rgb(255, 38, 38);
-  margin-top: 70%;
+  width: 80px;
+  height: 80px;
+  border: 2px;
+  border-radius: 16px;
+  background-color: #d13639;
+  border-color: #d13639
+}
+
+.entrar button:disabled{
+  background-color: #A9A9A9;
+  border-color: #A9A9A9;
 }
 a {
    text-decoration: none;
@@ -93,9 +101,12 @@ a:focus {
 }
 
 .container-footer{
-  position: absolute;
-	bottom: 45px;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  text-align: center;
   align-items: center;
-  margin-left: 10%;
+  width: 30%;
+  margin-bottom: 3%;
 }
 

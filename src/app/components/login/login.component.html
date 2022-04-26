@@ -6,9 +6,11 @@
       </picture>
     </div>
     <h1>Fazer Login</h1>
-    <div class="formulario">
-        <input type="text" placeholder="Novo Usuario">
+    <div class="formulario" >
+        <!-- <label>Username</label> -->
+        <input type="text" placeholder="Novo Usuario" [(ngModel)]="username" >
         <br>
+        <!-- <label>Senha</label> -->
         <input type="password" placeholder="Senha">
       </div>
       <div class="icons-midia">
@@ -22,12 +24,8 @@
           <button><img src="../../../assets/icons/apple.png" alt="apple-icon"></button>
         </div>
       </div>
-
-    <div class="info">
-      <input type="checkbox"> <span>Manter Login</span>
-    </div>
-    <div class="entrar">
-      <button> -> </button>
+      <div class="entrar">
+      <button [disabled]="!username"><img src="../../../assets/icons/arrow-right.png" alt="seta"></button>
     </div>
     <footer>
       <div class="container-footer">
