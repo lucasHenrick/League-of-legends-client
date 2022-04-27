@@ -1,21 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 .container{
-  display: grid;
-  grid-template-columns: 30% 70%;
-  position: relative;
   font-family: 'Roboto', sans-serif;
+  background: url(https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt7225731dfb1a126a/60249b80f4a7946af0338313/LoL-Patch-Notes-11-4-Article-Banner.jpg) center/cover;
+  height: 100vh;
 }
 .icon img{
   width: 35%;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
-.tab1{
+.container-tab{
+  background-color: rgba(237, 237, 237, 0.8) ;
+  height: 100vh;
+  width: 30%;
   text-align: center;
-  height: 100vh;
-}
-
-.tab2{
-  background: url(../../../assets/wallpaperflare.com_wallpaper.jpg) center/cover;
-  height: 100vh;
+  border-radius: 4%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .formulario input {
   margin: 1em;
@@ -23,7 +26,6 @@
   width: 90%;
   border-radius: 0.3em;
   background-color: #ededed;
-  /* background-color: #000; */
   border: 2px solid #ededed;
   border-radius: 8px;
   padding: 14px 16px 4px;
@@ -32,7 +34,6 @@
 .formulario input:focus {
   border-color: #000;
 }
-
 
 .icons-midia {
   display: grid;

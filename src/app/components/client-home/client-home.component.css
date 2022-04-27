@@ -1,0 +1,66 @@
+nav{
+  background-color: rgba(1,10,19,0.5);
+}
+.play-menu{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.play-menu li{
+  display: inline-block;
+  position: relative;
+}
+.play-button{
+  margin: 0 2.2rem;
+  position: relative;
+  top: 20px;
+}
+.play-button-area{
+  position: absolute;
+  top: 26px;
+  left: 78px;
+}
+
+.item-link-formated {
+  color: #beb088;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: transparent;
+  padding: 44.5px 1.5rem;
+}
+.play-menu span{
+    text-transform: uppercase;
+    color: #f0e6d2;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 130px;
+    top: 38px;
+    cursor: pointer;
+}
+.icons {
+  text-align: right;
+  position: absolute;
+  right: 0;
+}
+.icons li {
+  display: inline-block;
+  position: relative;
+}
+hr{
+  border: 2px solid #beb088;
+  margin: 0;
+}
+.money{
+  margin-bottom: 2px;
+  text-align: center;
+}
+.money img {
+  margin-right: 2px;
+}
+.container {
+  background-image: url(../../../assets/wallpaperflare.com_wallpaper.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+

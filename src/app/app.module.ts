@@ -8,10 +8,12 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ClientHomeComponent } from './components/client-home/client-home.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
+    ClientHomeComponent,
   ],
   imports: [
     BrowserModule,
